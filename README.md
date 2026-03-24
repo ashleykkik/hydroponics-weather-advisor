@@ -4,17 +4,17 @@ Institution: Moringa School — AI Essentials for Software Developers
 
 Date: March 2026
 
-📌 Project Overview
+ Project Overview
 The Hydroponics Weather Advisor is a command-line tool built in Go (Golang). It is specifically designed for urban farmers in Nairobi to help manage hydroponic systems by fetching real-time weather data and providing automated nutrient solution advice.
 
-🛠️ Features
+ Features
 Live Data: Fetches current temperature and humidity for Nairobi via the OpenWeatherMap API.
 
 Smart Advisory: Provides specific warnings for high heat, cold temperatures, and humidity spikes to protect crop health.
 
 Modern Backend: Built using Go to explore static typing, efficient compilation, and robust error handling.
 
-🚀 Setup & Installation
+ Setup & Installation
 1. Requirements
 Go (Golang) installed on your system.
 
@@ -44,7 +44,8 @@ On Mac/Linux:
 Bash
 export WEATHER_API_KEY="your_api_key_here"
 go run main.go
-📊 Advisory Logic
+
+ Advisory Logic
 High Heat (>28°C): Advice to increase oxygenation and check reservoir temperature.
 
 Cold (<18°C): Warning that plant growth may slow down.
